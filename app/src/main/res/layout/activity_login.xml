@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@null"
+            android:src="@drawable/foodsapp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="50sp">
+
+            <EditText
+                android:id="@+id/txt_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:layout_marginBottom="10sp"
+                android:hint="@string/id_hint"
+                android:background="@drawable/edittext_input"
+                android:gravity="left|center_vertical"
+                android:imeOptions="actionNext"
+                android:inputType="textVisiblePassword"
+                android:paddingHorizontal="@dimen/default_horizontal"
+                android:textSize="@dimen/default_font_size"
+                />
+
+            <EditText
+                android:id="@+id/txt_pw"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/input_height"
+                android:hint="@string/pw_hint"
+                android:background="@drawable/edittext_input"
+                android:gravity="left|center_vertical"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                app:passwordToggleEnabled="true"
+                android:paddingHorizontal="@dimen/default_horizontal"
+                android:textSize="@dimen/default_font_size"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/login_click"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/input_height"
+                    android:text="@string/login_click"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:background="@drawable/bt_default"/>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/input_height"
+                    android:text="@string/register_click"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/default_font_size"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/bt_default"/>
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

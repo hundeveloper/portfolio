@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 타이틀바 -->
+    <dimen name="title_width">50dp</dimen>
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="title_marginVertical">5dp</dimen>
+    <dimen name="title_fontsize">22sp</dimen>
+
+    <!-- 기본사이즈 -->
+    <dimen name="default_horizontal">16dp</dimen>
+    <dimen name="default_font_size">16sp</dimen>
+    <dimen name="input_height">50dp</dimen>
+
+    <!-- 폰트 사이즈 -->
+    <dimen name="super_font_size">20sp</dimen>
+    <dimen name="big_font_size">18sp</dimen>
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="inferial_font_size">12sp</dimen>
+
+    <!-- 회원가입페이지 (activity_register)-->
+    <dimen name="register_input">64dp</dimen>
+    <dimen name="register_height">65dp</dimen>
+
+
+    <!-- 버튼 사이즈 -->
+    <dimen name="btn_height">55dp</dimen>
+    <dimen name="btn_margin">15dp</dimen>
+
+</resources>
